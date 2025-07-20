@@ -1,0 +1,46 @@
+
+## App Specific
+
+
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Symfony
+/var/
+/vendor/
+.env
+.env.local
+.env.*.local
+
+# Composer
+composer.phar
+/vendor/
+
+# PHP
+*.log
+*.cache
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+
+# Temporary files
+*.tmp
+*.temp
+
+# Project specific
+# dist folder is now tracked

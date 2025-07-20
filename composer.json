@@ -1,0 +1,33 @@
+{
+    "name": "defcon33/partyline",
+    "description": "DEF CON 33 Party Line - Agent Builder",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "symfony/console": "^6.0",
+        "symfony/framework-bundle": "^6.0",
+        "symfony/runtime": "*"
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "symfony/runtime": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
