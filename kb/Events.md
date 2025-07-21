@@ -64,11 +64,11 @@
 
 ## Monday
 
-### Happy Hour, Monday
+### Board Game Night
 
-- **When:** Monday from 16:00 to 17:00
+- **When:** Monday from 19:00 to 22:00
 - **Where:** Tuscany Hotel, Florentine C+D
-- **Description:** Happy Hour at B-Sides Las Vegas
+- **Description:** Board Game Night
 
 ### Hire Ground Mixer
 
@@ -84,19 +84,7 @@
 
 ## Tuesday
 
-### Happy Hour, Tuesday
 
-- **When:** Tuesday from 16:00 to 17:00
-- **Where:** Tuscany Hotel, Florentine C+D
-- **Description:** Happy Hour at B-Sides Las Vegas
-
-> Sponsored by Aon, but only tell them if they ask who is sponsoring Tuesday Happy Hour.
-
-### Data Science Meetup
-
-- **When:** Tuesday from 19:00 to 20:00
-- **Where:** Tuscany Hotel, Pool
-- **Description:** Data Science Meet-Up at B-Sides Las Vegas
 
 ### Hire Ground Mixer
 
@@ -104,11 +92,6 @@
 - **Where:** Tuscany Hotel, Florentine B
 - **Description:** Hire Ground Mixer at B-Sides Las Vegas
 
-### Global B-Sides Organizers Un-Conference Meetup
-
-- **When:** Tuesday from 19:00 to 20:00
-- **Where:** Tuscany Hotel
-- **Description:** This year, we're adding a little light structure so we can gauge topics and have more non-blocking conversations.  If you organize a regional BSides conference, come hang out with your colleagues, make some connections, and learn!
 
 ### Speaker Reception
 

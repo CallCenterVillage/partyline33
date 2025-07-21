@@ -8,7 +8,7 @@ Details needed to power ElevenLabs Conversational AI for the Call Center Village
 
 ## Overview
 
-We're using the Twilio integration within ElevenLabs to tie an agent to a phone number. A custom ElevenLab's agent will answer the call and assist the caller based on the *System Prompt* and *Agent knowledge base*. 
+We're using the Twilio integration within ElevenLabs to tie an agent to a phone number. A custom ElevenLab's agent will answer the call and assist the caller based on the *System Prompt* and/or *Agent knowledge base*. 
 
 This document is meant to explain all the configuration used to reproduce the agent. You can also use it as a baseline for creating your own.
 
@@ -18,9 +18,6 @@ This document is meant to explain all the configuration used to reproduce the ag
 - [B-Sides Las Vegas - Schedule Website](https://bsideslv.org/schedule)
 - [Hacker Tracker App and Website](https://hackertracker.app/)
 
-## Agent Compilation
-
-The ElevenLabs interface now recommends including all knowledge directly in the system prompt instead of using separate RAG documents. We compile all agent configuration and knowledge base files into a single system prompt.
 
 ### Build Complete Agent Package
 

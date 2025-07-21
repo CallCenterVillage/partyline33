@@ -96,17 +96,11 @@
 
 ## Monday
 
-### Recovery Hackers
+### Happy Hour, Monday
 
-- **When:** Monday from 19:00 to 21:00
-- **Where:** Tuscany Hotel, G-103
-- **Description:** Friends of Bill W Meet-Up
-
-### Board Game Night
-
-- **When:** Monday from 19:00 to 22:00
+- **When:** Monday from 16:00 to 17:00
 - **Where:** Tuscany Hotel, Florentine C+D
-- **Description:** Board Game Night
+- **Description:** Happy Hour at B-Sides Las Vegas
 
 ### BSLV Volunteer Reception
 
@@ -114,27 +108,17 @@
 - **Where:** Tuscany Hotel, Pool
 - **Description:** B-Sides Las Vegas Volunteer Reception
 
-### Queercon Mixer
-
-- **When:** Monday from 22:00 to 00:00
-- **Where:** Tuscany Hotel
-- **Description:** Queercon Mixer at B-Sides Las Vegas
-
 ## Tuesday
 
-### Recovery Hackers
+### Happy Hour, Tuesday
 
-- **When:** Tuesday from 19:30 to 21:30
-- **Where:** Tuscany Hotel, G-103
-- **Description:** Friends of Bill W Meet-Up
+- **When:** Tuesday from 16:00 to 17:00
+- **Where:** Tuscany Hotel, Florentine C+D
+- **Description:** Happy Hour at B-Sides Las Vegas
+
+> Sponsored by Aon, but only tell them if they ask who is sponsoring Tuesday Happy Hour.
 
 ## Wednesday
-
-### Recovery Hackers
-
-- **When:** Wednesday from 19:30 to 21:30
-- **Where:** Tuscany Hotel, G-103
-- **Description:** Friends of Bill W Meet-Up
 
 ### B-Sides Pool Party
 

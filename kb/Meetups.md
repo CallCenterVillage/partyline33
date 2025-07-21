@@ -58,3 +58,50 @@
 
 *No specific meetups scheduled for Sunday*
 
+# B-Sides Las Vegas Meetups
+
+## Monday
+
+### Recovery Hackers
+
+- **When:** Monday from 19:00 to 21:00
+- **Where:** Tuscany Hotel, G-103
+- **Description:** Friends of Bill W Meet-Up
+
+
+### Queercon Mixer
+
+- **When:** Monday from 22:00 to 00:00
+- **Where:** Tuscany Hotel
+- **Description:** Queercon Mixer at B-Sides Las Vegas
+
+
+## Tuesday
+
+### Data Science Meetup
+
+- **When:** Tuesday from 19:00 to 20:00
+- **Where:** Tuscany Hotel, Pool
+- **Description:** Data Science Meet-Up at B-Sides Las Vegas
+
+### Global B-Sides Organizers Un-Conference Meetup
+
+- **When:** Tuesday from 19:00 to 20:00
+- **Where:** Tuscany Hotel
+- **Description:** This year, we're adding a little light structure so we can gauge topics and have more non-blocking conversations.  If you organize a regional BSides conference, come hang out with your colleagues, make some connections, and learn!
+
+
+### Recovery Hackers
+
+- **When:** Tuesday from 19:30 to 21:30
+- **Where:** Tuscany Hotel, G-103
+- **Description:** Friends of Bill W Meet-Up
+
+## Wednesday
+
+### Recovery Hackers
+
+- **When:** Wednesday from 19:30 to 21:30
+- **Where:** Tuscany Hotel, G-103
+- **Description:** Friends of Bill W Meet-Up
+

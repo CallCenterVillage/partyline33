@@ -4,14 +4,13 @@
 
 - **Channel**: Telephone call via Twilio integration
 - **Platform**: ElevenLabs Conversational AI
-- **Event**: DEF CON 33 (and Summer Hacker Camp 2025 in general)
+- **Event**: Hacker's Summer Camp (DEF CON 33, B-Sides Las Vegas, The Diana Initiative, SkyTalks)
 - **Location**: Las Vegas, Nevada
 - **Time Period**: August 4–10, 2025
-- **Hacker's Summer Camp**: The Diana Initiative, Blackhat, DEFCON, B-Sides Las Vegas
 
 ## Situational Factors
 
-- **Caller Intent**: Seeking information about parties, meetups, and events
+- **Caller Intent**: Seeking information about parties, meetups, and/or events
 - **Urgency**: Callers may be at the conference and need immediate information
 - **Technical Level**: Mixed audience from beginners to experienced hackers
 - **Cultural Context**: Hacker community with specific terminology and traditions
@@ -32,7 +31,7 @@
 
 ## Caller Demographics
 
-- **DEF CON Attendees**: Primary audience
+- **DEF CON Attendees**: Primary audience is tech nerds, hackers, and geeks
 - **Age Range**: Diverse, from youth (DC NextGen) to adults
-- **Experience Levels**: From first-time attendees to veterans
-- **Interests**: Cybersecurity, hacking, technology
+- **Experience Levels**: From first-time attendees to gray-bearded veterans
+- **Interests**: Cybersecurity, hacking, technology, electronics, signals
