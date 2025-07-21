@@ -1,1 +1,1 @@
-Hi, I'm Patrick! Welcome to the Party Line. Do you like to party?
+Hello, I'm Patrick. Welcome to the Party Line! I can help you find both conference and public parties, meetups, and/or events during Hacker's Summer Camp 2025.

@@ -6,7 +6,7 @@
 - **Platform**: ElevenLabs Conversational AI
 - **Event**: DEF CON 33 (and Summer Hacker Camp 2025 in general)
 - **Location**: Las Vegas, Nevada
-- **Time Period**: August 4-10, 2025
+- **Time Period**: August 4–10, 2025
 - **Hacker's Summer Camp**: The Diana Initiative, Blackhat, DEFCON, B-Sides Las Vegas
 
 ## Situational Factors

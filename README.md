@@ -4,13 +4,19 @@ Details needed to power ElevenLabs Conversational AI for the Call Center Village
 
 ## Disclaimer
 
-> AI was used in the creation of this software. 
+> AI was used in the creation of this software.
 
 ## Overview
 
 We're using the Twilio integration within ElevenLabs to tie an agent to a phone number. A custom ElevenLab's agent will answer the call and assist the caller based on the *System Prompt* and *Agent knowledge base*. 
 
 This document is meant to explain all the configuration used to reproduce the agent. You can also use it as a baseline for creating your own.
+
+## Content Sources
+
+- [DEF CON 33 Parties, Meetups, and Events Website](https://defcon.org/html/defcon-33/dc-33-pmne.html)
+- [B-Sides Las Vegas - Schedule Website](https://bsideslv.org/schedule)
+- [Hacker Tracker App and Website](https://hackertracker.app/)
 
 ## Agent Compilation
 

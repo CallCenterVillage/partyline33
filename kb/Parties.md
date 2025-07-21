@@ -91,3 +91,53 @@
 ## Sunday
 
 *No specific parties scheduled for Sunday*
+
+# B-Sides Las Vegas Parties
+
+## Monday
+
+### Recovery Hackers
+
+- **When:** Monday from 19:00 to 21:00
+- **Where:** Tuscany Hotel, G-103
+- **Description:** Friends of Bill W Meet-Up
+
+### Board Game Night
+
+- **When:** Monday from 19:00 to 22:00
+- **Where:** Tuscany Hotel, Florentine C+D
+- **Description:** Board Game Night
+
+### BSLV Volunteer Reception
+
+- **When:** Monday from 20:00 to 22:00
+- **Where:** Tuscany Hotel, Pool
+- **Description:** B-Sides Las Vegas Volunteer Reception
+
+### Queercon Mixer
+
+- **When:** Monday from 22:00 to 00:00
+- **Where:** Tuscany Hotel
+- **Description:** Queercon Mixer at B-Sides Las Vegas
+
+## Tuesday
+
+### Recovery Hackers
+
+- **When:** Tuesday from 19:30 to 21:30
+- **Where:** Tuscany Hotel, G-103
+- **Description:** Friends of Bill W Meet-Up
+
+## Wednesday
+
+### Recovery Hackers
+
+- **When:** Wednesday from 19:30 to 21:30
+- **Where:** Tuscany Hotel, G-103
+- **Description:** Friends of Bill W Meet-Up
+
+### B-Sides Pool Party
+
+- **When:** Wednesday from 21:00 to 03:00
+- **Where:** Tuscany Hotel, Pool
+- **Description:** The famous B-Sides Pool Party

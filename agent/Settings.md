@@ -46,7 +46,7 @@
 | ------- | ----- |
 | Enable authentication | &mdash; |
 | Allowlist | `www.callcentervillage.com` |
-| Enable overrides | `Agent language` only |
+| Enable overrides | &mdash; |
 | Fetch initiation client data from webhook | &mdash; |
 | Post-Call Webhook | &mdash; |
 | Enable bursting | `Enabled` |
@@ -58,13 +58,13 @@
 
 | Setting | Value |
 | ------- | ----- |
-| Turn timeout | `6` |
+| Turn timeout | `5` |
 | Silence end call timeout | `10` |
-| Max conversation duration | `180` |
+| Max conversation duration | `150` |
 | Keywords | [dist/Keywords.txt](dist/Keywords.txt) |
 | Text only | `Disabled` |
 | User input audio format | `u-law 8000 Hz` |
-| Client Events | `audio`, `interruption`, `user_transcript`, `agent_response`, `agent_response_correction` |
+| Client Events | `audio`, `interruption`, `user_transcript`, `agent_response`, `agent_response_correction`, `agent_tool_response` |
 | Store Call Audio | `Disabled` |
 | Zero-PII Retention Mode | `Enabled` |
 | Conversations Retention Period | `-1` |
@@ -72,12 +72,4 @@
 
 ## Widget Settings
 
-| Setting | Value |
-| ------- | ------ |
-| Feedback collection | `None` |
-| Interface - Text Input | `Disabled` |
-| Interface - Allow switching to text-only mode | `Disabled` |
-| Interface - Conversation transcript | `Disabled` |
-| Interface - Language dropdown | `Disabled` |
-| Interface - Enable muting during a call | `Enabled` |
-| Avatar | [https://roxy.labbett.net/gallery/profile.jpg](https://roxy.labbett.net/gallery/profile.jpg) |
+> We are not using the web widget.
