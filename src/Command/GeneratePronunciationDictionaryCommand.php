@@ -12,7 +12,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 
 #[AsCommand(
     name: 'app:generate-pronunciation-dictionary',
-    description: 'Generate pronunciation-dictionary.xml from all markdown files in the kb folder'
+    description: 'Generate pronunciation dictionary from knowledge base files'
 )]
 class GeneratePronunciationDictionaryCommand extends Command
 {
@@ -20,7 +20,7 @@ class GeneratePronunciationDictionaryCommand extends Command
     {
         $io = new SymfonyStyle($input, $output);
         
-        $io->title('DEF CON 33 Pronunciation Dictionary Generator');
+        $io->title('Pronunciation Dictionary Generator');
         
         $kbDir = 'kb';
         if (!is_dir($kbDir)) {
@@ -59,8 +59,8 @@ class GeneratePronunciationDictionaryCommand extends Command
         $xmlContent = $this->generateXml($uniqueEntries);
         
         // Write XML to file
-        if (file_put_contents('agent/pronunciation-dictionary.xml', $xmlContent) === false) {
-            $io->error('Could not write agent/pronunciation-dictionary.xml');
+        if (file_put_contents('dist/pronunciation-dictionary.xml', $xmlContent) === false) {
+            $io->error('Could not write dist/pronunciation-dictionary.xml');
             return Command::FAILURE;
         }
         
@@ -92,38 +92,8 @@ class GeneratePronunciationDictionaryCommand extends Command
             ];
         }
         
-        // Extract acronyms and special terms
-        $specialTerms = [
-            'LVCC' => 'las vegas convention center west hall',
-            'IoT' => 'internet of things',
-            'BBQ' => 'barbecue',
-            'AFK' => 'A F K',
-            'ATL' => 'Atlanta',
-            'BIC' => 'Blacks in Cybersecurity',
-            'LGBTQIA' => 'L G B T Q I A plus',
-            'RFID' => 'R F I D',
-            'RF' => 'R F',
-            'DJ' => 'D J',
-            'DJs' => 'D J\'s',
-            'Vegemite' => 'vej uh mite',
-            'Pai Sho' => 'pie show',
-            'telephony' => 'tel ef oh nee',
-            'transistors' => 'tran sis tors',
-            'lockpicking' => 'lock picking',
-            'mansplaining' => 'man splaining',
-            'subculture' => 'sub culture',
-            'unfreeze' => 'un freeze',
-            'unfrozen' => 'un frozen',
-            'weaponize' => 'weapon ize',
-            'breakcore' => 'break core',
-            'hardcore' => 'hard core',
-            'hardstyle' => 'hard style',
-            'speedcore' => 'speed core',
-            'hip-hop' => 'hip hop',
-            'onesies' => 'one zees',
-            'phat' => 'fat',
-            'scifi' => 'sci fi'
-        ];
+        // Load special terms from configuration file
+        $specialTerms = $this->loadSpecialTerms();
         
         foreach ($specialTerms as $term => $pronunciation) {
             if (stripos($content, $term) !== false) {
@@ -134,19 +104,15 @@ class GeneratePronunciationDictionaryCommand extends Command
             }
         }
         
-        // Extract DEF CON related terms
-        if (stripos($content, 'DEF CON') !== false) {
-            $entries[] = [
-                'grapheme' => 'DEF CON',
-                'alias' => 'def con'
-            ];
-        }
-        
-        if (stripos($content, 'DEFCON') !== false) {
-            $entries[] = [
-                'grapheme' => 'DEFCON',
-                'alias' => 'def con'
-            ];
+        // Extract event-specific patterns from configuration
+        $eventPatterns = $this->loadEventPatterns();
+        foreach ($eventPatterns as $pattern) {
+            if (stripos($content, $pattern['pattern']) !== false) {
+                $entries[] = [
+                    'grapheme' => $pattern['pattern'],
+                    'alias' => $pattern['pronunciation']
+                ];
+            }
         }
         
         // Extract DC groups
@@ -250,5 +216,45 @@ class GeneratePronunciationDictionaryCommand extends Command
         $xml .= "</lexicon>";
         
         return $xml;
+    }
+    
+    private function loadSpecialTerms(): array
+    {
+        $configFile = 'agent/SpecialTerms.json';
+        if (!file_exists($configFile)) {
+            return [];
+        }
+        
+        $content = file_get_contents($configFile);
+        if ($content === false) {
+            return [];
+        }
+        
+        $config = json_decode($content, true);
+        if (!$config || !isset($config['terms'])) {
+            return [];
+        }
+        
+        return $config['terms'];
+    }
+    
+    private function loadEventPatterns(): array
+    {
+        $configFile = 'agent/SpecialTerms.json';
+        if (!file_exists($configFile)) {
+            return [];
+        }
+        
+        $content = file_get_contents($configFile);
+        if ($content === false) {
+            return [];
+        }
+        
+        $config = json_decode($content, true);
+        if (!$config || !isset($config['patterns']['event_specific'])) {
+            return [];
+        }
+        
+        return $config['patterns']['event_specific'];
     }
 } 

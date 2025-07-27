@@ -12,7 +12,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 
 #[AsCommand(
     name: 'app:generate-keywords',
-    description: 'Generate Keywords.txt from all markdown files in the kb folder'
+    description: 'Generate keywords from knowledge base files'
 )]
 class GenerateKeywordsCommand extends Command
 {
@@ -20,7 +20,7 @@ class GenerateKeywordsCommand extends Command
     {
         $io = new SymfonyStyle($input, $output);
         
-        $io->title('DEF CON 33 Keywords Generator');
+        $io->title('Keywords Generator');
         
         $kbDir = 'kb';
         if (!is_dir($kbDir)) {
@@ -52,8 +52,8 @@ class GenerateKeywordsCommand extends Command
         
         // Write keywords to file
         $keywordsContent = implode(', ', $keywords);
-        if (file_put_contents('agent/Keywords.txt', $keywordsContent) === false) {
-            $io->error('Could not write agent/Keywords.txt');
+        if (file_put_contents('dist/Keywords.txt', $keywordsContent) === false) {
+            $io->error('Could not write dist/Keywords.txt');
             return Command::FAILURE;
         }
         

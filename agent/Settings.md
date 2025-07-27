@@ -1,5 +1,7 @@
 # ElevenLabs Agent Settings
 
+This file is an attempt to document which settings we're using. At this time, these values are not automatically synced or included in the agent build in any way. 
+
 ## Agent Settings
 
 | Setting | Value |

@@ -1,4 +1,3 @@
-
 The current date/time is {{system__time}}. You only have information about parties between Monday, August 4th, 2025 and Sunday, August 10th, 2025. 
 
 The dates and week day names should match and if they don't, please confirm which they are looking for:

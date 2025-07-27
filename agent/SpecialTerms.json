@@ -1,0 +1,45 @@
+{
+  "terms": {
+    "LVCC": "las vegas convention center west hall",
+    "IoT": "internet of things",
+    "BBQ": "barbecue",
+    "AFK": "A F K",
+    "ATL": "Atlanta",
+    "BIC": "Blacks in Cybersecurity",
+    "LGBTQIA": "L G B T Q I A plus",
+    "RFID": "R F I D",
+    "RF": "R F",
+    "DJ": "D J",
+    "DJs": "D J's",
+    "Vegemite": "vej uh mite",
+    "Pai Sho": "pie show",
+    "telephony": "tah leff oh nee",
+    "transistors": "tran sis tors",
+    "lockpicking": "lock picking",
+    "mansplaining": "man splaining",
+    "subculture": "sub culture",
+    "unfreeze": "un freeze",
+    "unfrozen": "un frozen",
+    "weaponize": "weapon ize",
+    "breakcore": "break core",
+    "hardcore": "hard core",
+    "hardstyle": "hard style",
+    "speedcore": "speed core",
+    "hip-hop": "hip hop",
+    "onesies": "one zees",
+    "phat": "fat",
+    "scifi": "sci fi"
+  },
+  "patterns": {
+    "event_specific": [
+      {
+        "pattern": "DEF CON",
+        "pronunciation": "def con"
+      },
+      {
+        "pattern": "DEFCON",
+        "pronunciation": "def con"
+      }
+    ]
+  }
+}

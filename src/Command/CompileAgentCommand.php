@@ -12,7 +12,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 
 #[AsCommand(
     name: 'app:compile-agent',
-    description: 'Compile system prompt with all events/meetups/parties and copy agent files'
+    description: 'Compile agent system prompt from configuration and knowledge base files'
 )]
 class CompileAgentCommand extends Command
 {
@@ -20,7 +20,7 @@ class CompileAgentCommand extends Command
     {
         $io = new SymfonyStyle($input, $output);
         
-        $io->title('DEF CON 33 Agent Compiler');
+        $io->title('Agent Compiler');
         
         // Read the base system prompt
         $systemPrompt = file_get_contents('agent/System.md');
@@ -82,9 +82,7 @@ class CompileAgentCommand extends Command
         
         // Copy other agent files
         $filesToCopy = [
-            'agent/Keywords.txt' => 'dist/Keywords.txt',
-            'agent/Opener.md' => 'dist/Opener.txt',
-            'agent/pronunciation-dictionary.xml' => 'dist/pronunciation-dictionary.xml'
+            'agent/Opener.md' => 'dist/Opener.txt'
         ];
         
         foreach ($filesToCopy as $source => $destination) {
@@ -98,11 +96,11 @@ class CompileAgentCommand extends Command
                 continue;
             }
             
-            $io->text("✓ Copied " . basename($source) . " to compiled/");
+            $io->text("✓ Copied " . basename($source) . " to dist/");
         }
         
         $io->success('Agent compilation complete!');
-        $io->text('All files are ready in the dist/ folder for ElevenLabs');
+        $io->text('All files are ready in the dist/ folder for deployment');
         
         return Command::SUCCESS;
     }

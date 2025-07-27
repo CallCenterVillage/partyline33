@@ -21,7 +21,7 @@ This document is meant to explain all the configuration used to reproduce the ag
 
 ### Build Complete Agent Package
 
-Run the master build command to generate all files:
+Run the build command to generate all files:
 
 ```bash
 php bin/console app:build-agent

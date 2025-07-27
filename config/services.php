@@ -8,7 +8,5 @@ return static function (ContainerConfigurator $containerConfigurator): void {
             ->autowire()
             ->autoconfigure()
         ->load('App\\', '../src/')
-        ->exclude('../src/DependencyInjection/')
-        ->exclude('../src/Entity/')
         ->exclude('../src/Kernel.php');
 }; 

@@ -41,6 +41,3 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
-
-# Project specific
-# dist folder is now tracked
