@@ -38,7 +38,7 @@ The application follows a modular architecture where agent configuration, knowle
 - **Output** (`dist/`): Generated files ready for upload to ElevenLabs platform
 
 The build process:
-1. Extracts keywords from knowledge base files for better speech recognition
+1. Extract keywords from knowledge base files for better speech recognition
 2. Generates pronunciation dictionary in W3C PLS format for technical terms
 3. Compiles all agent configuration and knowledge base into a single system prompt
 4. Copies necessary files to the dist/ folder for deployment
