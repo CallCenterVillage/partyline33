@@ -18,20 +18,21 @@ This file is an attempt to document which settings we're using. At this time, th
 | Temperature | `Deterministic` (`0.00`) | 
 | Limit token usage | `500` |
 | Agent Knowledge Base | `Built into System Prompt` |
+| Tools | `End call`, `Detect language`, `Skip Turn` |
 
 ## Voice Settings
 
-| Setting | Value |
-| ------- | ----- |
-| Voice | `Patrick Labbett` |
-| Multi-voice support | &mdash; |
-| Use Flash | `Enabled` |
-| TTS output format | `u-law 8000 Hz` |
+| Setting | Value                                                                  |
+| ------- |------------------------------------------------------------------------|
+| Voice | `Patrick Labbett`                                                      |
+| Multi-voice support | &mdash;                                                                |
+| Use Flash | `Enabled`                                                              |
+| TTS output format | `u-law 8000 Hz`                                                        |
 | Pronunciation Dictionaries | [dist/pronunciation-dictionary.xml](dist/pronunciation-dictionary.xml) |
-| Optimize streaming latency | `3` |
-| Stability | `0.50` |
-| Speed  | `1.00` |
-| Similarity | `0.70` |
+| Optimize streaming latency | `3`                                                                    |
+| Stability | `0.60`                                                                 |
+| Speed  | `1.02`                                                                 |
+| Similarity | `0.60`                                                                 |
 
 ## Analysis Settings
 
@@ -58,18 +59,18 @@ This file is an attempt to document which settings we're using. At this time, th
 
 ## Advanced Settings
 
-| Setting | Value |
-| ------- | ----- |
-| Turn timeout | `5` |
-| Silence end call timeout | `10` |
-| Max conversation duration | `150` |
-| Keywords | [dist/Keywords.txt](dist/Keywords.txt) |
-| Text only | `Disabled` |
-| User input audio format | `u-law 8000 Hz` |
+| Setting | Value                                                                                                            |
+| ------- |------------------------------------------------------------------------------------------------------------------|
+| Turn timeout | `6`                                                                                                             |
+| Silence end call timeout | `10`                                                                                                             |
+| Max conversation duration | `150`                                                                                                            |
+| Keywords | [dist/Keywords.txt](dist/Keywords.txt)                                                                           |
+| Text only | `Disabled`                                                                                                       |
+| User input audio format | `u-law 8000 Hz`                                                                                                  |
 | Client Events | `audio`, `interruption`, `user_transcript`, `agent_response`, `agent_response_correction`, `agent_tool_response` |
-| Store Call Audio | `Disabled` |
-| Zero-PII Retention Mode | `Enabled` |
-| Conversations Retention Period | `-1` |
+| Store Call Audio | `Disabled`                                                                                                       |
+| Zero-PII Retention Mode | `Enabled`                                                                                                        |
+| Conversations Retention Period | `-1`                                                                                                             |
 
 
 ## Widget Settings
